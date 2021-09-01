@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "libmecab",
+        "repositoryURL": "https://github.com/trickart/libmecab.git",
+        "state": {
+          "branch": null,
+          "revision": "efeff76a9c7e8a169bcb64f71934278d948c42bd",
+          "version": "0.996.0"
+        }
+      },
+      {
+        "package": "MeCab",
+        "repositoryURL": "https://github.com/trickart/MeCab.git",
+        "state": {
+          "branch": null,
+          "revision": "241acfbe62eb9cdf586a4f00188c6d15829c056e",
+          "version": "0.0.1"
+        }
+      },
+      {
+        "package": "MeCabIPAdic",
+        "repositoryURL": "https://github.com/trickart/MeCabIPAdic.git",
+        "state": {
+          "branch": null,
+          "revision": "510fec570f74d664eacc7031a1d114c22875d1f0",
+          "version": "270.20070801.0"
+        }
+      },
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser.git",
+        "state": {
+          "branch": null,
+          "revision": "83b23d940471b313427da226196661856f6ba3e0",
+          "version": "0.4.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
