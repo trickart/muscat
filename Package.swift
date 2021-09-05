@@ -9,6 +9,10 @@ let package = Package(
         .executable(
             name: "muscat",
             targets: ["muscat"]
+        ),
+        .library(
+            name: "MuscatKit",
+            targets: ["MuscatKit"]
         )
     ],
     dependencies: [
