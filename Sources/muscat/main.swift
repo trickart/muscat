@@ -1,4 +1,5 @@
 import ArgumentParser
+import OrderedCollections
 import Foundation
 import MuscatKit
 
@@ -18,10 +19,12 @@ struct Muscat: ParsableCommand {
 
     mutating func run() throws {
         do {
-            let strings = try readStrings(input: inputPath.url)
             let core = MuscatCore()
-            let processed = strings.mapValues { core.process(text: $0) }
-            try writeStrings(strings: processed, output: outputPath.url)
+            let processed = try readStrings(input: inputPath.url)
+                .mapValues { core.process(text: $0) }
+            var ordered = OrderedDictionary(uniqueKeys: processed.keys, values: processed.values)
+            ordered.sort()
+            try writeStrings(strings: ordered, output: outputPath.url)
         } catch {
             print(error)
         }
@@ -32,7 +35,7 @@ struct Muscat: ParsableCommand {
         return try PropertyListDecoder().decode([String: String].self, from: stringsFile)
     }
 
-    private func writeStrings(strings: [String: String], output: URL) throws {
+    private func writeStrings(strings: OrderedDictionary<String, String>, output: URL) throws {
         var lines = ""
         strings.forEach { key, value in
             lines.append("\"\(key)\" =  \"\(value)\";\n")

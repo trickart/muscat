@@ -27,6 +27,10 @@ let package = Package(
         .package(
             url: "https://github.com/apple/swift-argument-parser.git",
             .upToNextMajor(from: "0.4.4")
+        ),
+        .package(
+            url: "https://github.com/apple/swift-collections.git",
+            .upToNextMajor(from: "1.0.0")
         )
     ],
     targets: [
@@ -41,6 +45,7 @@ let package = Package(
             name: "muscat",
             dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
+                .product(name: "OrderedCollections", package: "swift-collections"),
                 "MuscatKit"
             ]
         ),
