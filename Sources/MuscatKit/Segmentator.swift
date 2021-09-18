@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import MeCab
+import MeCabObjC
 import MeCabIPAdic
 
 public final class Segmentator {

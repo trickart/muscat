@@ -18,11 +18,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/trickart/MeCab.git",
-            .upToNextMinor(from: "0.0.1")
+            .upToNextMinor(from: "0.0.2")
         ),
         .package(
             url: "https://github.com/trickart/MeCabIPAdic.git",
-            .upToNextMinor(from: "270.20070801.0")
+            .upToNextMinor(from: "270.20070801.2")
         ),
         .package(
             url: "https://github.com/apple/swift-argument-parser.git",

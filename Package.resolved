@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/trickart/MeCab.git",
         "state": {
           "branch": null,
-          "revision": "241acfbe62eb9cdf586a4f00188c6d15829c056e",
-          "version": "0.0.1"
+          "revision": "3ca1adf9e2ebefb880d7b82156f2ffb98ba03c73",
+          "version": "0.0.2"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/trickart/MeCabIPAdic.git",
         "state": {
           "branch": null,
-          "revision": "510fec570f74d664eacc7031a1d114c22875d1f0",
-          "version": "270.20070801.0"
+          "revision": "29d64401ab2b13debb93e9a65d6a8d0c575d8250",
+          "version": "270.20070801.2"
         }
       },
       {
