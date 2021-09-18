@@ -9,8 +9,7 @@ https://speakerdeck.com/trickart/split-japanese-sentence-for-uilabel-and-swiftui
 
 修正中
 
-~~
-[mint](https://github.com/yonaskolb/Mint)を利用してインストールすることができます。
+~~[mint](https://github.com/yonaskolb/Mint)を利用してインストールすることができます。~~
 
 ``` Mintfile
 trickart/muscat
@@ -19,7 +18,7 @@ trickart/muscat
 ```
 $ mint run trickart/muscat in.strings out.strings
 ```
-~~
+
 
 ### プロダクト内で使う場合
 
