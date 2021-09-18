@@ -7,6 +7,9 @@ https://speakerdeck.com/trickart/split-japanese-sentence-for-uilabel-and-swiftui
 
 ### Localizable.stringsを生成したい場合
 
+修正中
+
+~~
 [mint](https://github.com/yonaskolb/Mint)を利用してインストールすることができます。
 
 ``` Mintfile
@@ -16,6 +19,7 @@ trickart/muscat
 ```
 $ mint run trickart/muscat in.strings out.strings
 ```
+~~
 
 ### プロダクト内で使う場合
 
